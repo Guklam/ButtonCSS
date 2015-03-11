@@ -1,0 +1,24 @@
+@import url(http://fonts.googleapis.com/css?family=Opensans:400,900,700,500,300,100);
+* {
+	margin-right: 5px;
+}
+span {
+	height: 10px;
+	display: block;
+}
+h1 {
+	font-family: 'Open sans', sans-serif;
+	font-weight: 500;
+	color:#2c3e50;
+}
+h1::after {
+	content: "";
+	display: block;
+	height: 1px;
+	width:100%;
+	background: #34495e;
+	opacity: 0.40;
+}
+#center {
+	text-align: center;
+}
